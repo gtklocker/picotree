@@ -5,3 +5,5 @@ install:
     - make init
 script:
     - make test
+after_success:
+    - coveralls
